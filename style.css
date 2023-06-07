@@ -25,7 +25,7 @@ body {
     --row-height: 300px;
 
     box-sizing: border-box;
-    padding: var(--gap);
+    /* padding: var(--gap); espacio entre titulo y grid */
     margin-top: 0;
     display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
